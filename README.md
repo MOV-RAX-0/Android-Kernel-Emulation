@@ -16,3 +16,8 @@ Android kernel emulation using QEMU for fun and education. This is a lab-focused
 
 # License
 This project is licensed under the terms of the MIT license. **It is provided for educational and research purposes only.** Do not use it in violation of laws, terms of service, or ethical guidelines.
+
+# Credits
+Created by MOV_RAX_0
+If this project helped you, consider giving it a ⭐️ or submitting a PR to expand the documentation!
+🫡 _Ad Astra, Simul_
