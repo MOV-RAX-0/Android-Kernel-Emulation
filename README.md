@@ -10,9 +10,9 @@ Android kernel emulation using QEMU for fun and education. This is a lab-focused
 # Learning Goals
 * Compile Android kernels with debug symbols
 * Run them in QEMU with custom initramfs
-* Trace memory allocation via kmalloc, kmem_cache_*, etc.
-* Use /proc/slabinfo, GDB, and symbol maps to interpret behavior
+* Trace memory allocation via `kmalloc`, `kmem_cache_*`, etc.
+* Use `/proc/slabinfo`, GDB, and symbol maps to interpret behavior
 * Study kernel memory bugs (e.g. SLAB UAF)
 
 # License
-This project is licensed under the terms of the MIT license. It is provided for educational and research purposes only. Do not use it in violation of laws, terms of service, or ethical guidelines.
+This project is licensed under the terms of the MIT license. **It is provided for educational and research purposes only.** Do not use it in violation of laws, terms of service, or ethical guidelines.
