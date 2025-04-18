@@ -28,7 +28,7 @@ Android-Kernel-Emulation/
 ├── .gitignore
 └── LICENSE
 ```
-✔️ **Quickstart (for Ubuntu 24.04LTS**
+✔️ **Quickstart (for Ubuntu 24.04 LTS)**
 
 ```
 sudo apt update && sudo apt install -y \
