@@ -54,5 +54,7 @@ This project is licensed under the terms of the MIT license. **It is provided fo
 
 # Credits
 Created by MOV_RAX_0
+
 If this project helped you, consider giving it a ⭐️ or submitting a PR to expand the documentation!
+
 🫡 _Ad Astra, Simul_
