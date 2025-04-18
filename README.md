@@ -8,7 +8,7 @@ Android kernel emulation using QEMU for fun and education. This is a lab-focused
 * Contribute meaningful documentation to the security community
 
 ```
-Ad-Astra-Security-Research/
+Android-Kernel-Emulation/
 ├── README.md                  # This file
 ├── setup/
 │   ├── 00_prerequisites.md    # OS & environment prep
