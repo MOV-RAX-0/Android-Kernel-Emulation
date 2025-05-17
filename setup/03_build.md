@@ -1,6 +1,20 @@
 **Mission Objective:**
 This section walks you through building the Android 11 common kernel (version 5.15.178) for arm64, suitable for QEMU emulation and security research.
 
+**Building Debug Tools**
+
+We use Buildroot to compile statically-linked ARM64 binaries.
+
+Toolchain:
+- Toolchain: `aarch64 glibc stable 2024.05-1`
+- Buildroot config: enables `BR2_STATIC_LIBS=y`
+
+To build key tools:
+```bash
+make busybox gdb gdbserver binutils
+
+
+
 ✅ **Step 1: Confirm your environment**
 
 Make sure you're in the `~/android-kernel-lab/common` directory:
