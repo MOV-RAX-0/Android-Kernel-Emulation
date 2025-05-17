@@ -7,6 +7,19 @@ Android kernel emulation using QEMU for fun and education. This is a lab-focused
 * Understand `kmem`, SLAB behavior, freelist reuse, and kernel hardening
 * Contribute meaningful documentation to the security community
 
+## 🧰 Toolchain and Debugging Focus
+
+This environment now includes **statically-linked ARM64 binaries** to support in-depth kernel security research. These tools are embedded into the initramfs and require no runtime linking, improving compatibility and minimizing dependency issues.
+
+Included tools (statically linked unless noted):
+- BusyBox (`/bin/sh`, `ls`, `mount`, etc.)
+- `gdbserver`
+- `pagemap`
+- `hexdump`, `readelf`, `objdump`
+- (optional) `perf`, `SystemTap` [planned]
+
+Binaries are cross-compiled using Buildroot with the `aarch64 glibc stable` 2024.05-1 toolchain. See `docs/03_build.md` and `docs/04_initramfs.md` for integration details.
+
 ```
 Android-Kernel-Emulation/
 ├── README.md                  # This file
